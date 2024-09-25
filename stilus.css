@@ -13,14 +13,19 @@ td,th {
 
 /* táblázat címsor formázása */
 caption {
-        font-style: italic;
+        font-style: italic; /* dőlt betű */
         }
 
 /* címsorok formázása */
 h1     {
-        color: blue;
-        font-family: Arial, Verdana, sans-serif;
+        color: blue; /* betű színe */
+        /* font-family: Arial, Verdana, sans-serif; */
        }
-h2     {
-        font-family: Arial, Verdana, sans-serif;
+h2,h1  {
+        font-family: Arial, Verdana, sans-serif; /* betűcsalád beállítása */
        }
+
+#vastag {
+        font-weight: bold;
+        font-style: italic;
+        }
